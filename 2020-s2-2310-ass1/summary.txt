@@ -1,0 +1,23 @@
+1. 需要文件
+    four files: standard.rules, player.map, cpu.map, cpu.turns
+2. class
+    ^* Position: represent the position: x, y, status
+
+    * Ship: length, start-x, start-y and direction, sunk or not
+
+    * Board: # represent the game board.    . 1 # /
+             # length, width
+             # placed staff: ship or empty, hit or miss
+             # how many empty position left and does all ships show already
+             # change position status. (Position, input)
+
+    * Guess: identify guess type, change input to specific movement
+    * Player: # two type: CPU or player
+              # their board
+              # how many ships, and ship status
+
+    * Result: exit code and end game
+    * Game: game logic
+
+
+
